@@ -10,9 +10,13 @@ declare interface IModuleOneWebPartStrings {
   AppTeamsTabEnvironment: string;
   AppOfficeEnvironment: string;
   AppOutlookEnvironment: string;
+
+  Header: {
+    HelloWorld: string;
+  };
 }
 
-declare module 'ModuleOneWebPartStrings' {
+declare module "ModuleOneWebPartStrings" {
   const strings: IModuleOneWebPartStrings;
   export = strings;
 }
